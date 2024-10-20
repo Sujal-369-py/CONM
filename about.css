@@ -1,0 +1,84 @@
+@font-face {
+    font-family: Reg;
+    src: url('./BalooThambi-Regular.ttf');
+ }
+ *
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ .nav
+ {
+    width: 100%;
+    background-color: aliceblue;
+    position: fixed;
+    height: 12vh;
+   
+    
+ }
+ .nav ul
+ {
+    padding-left: 10rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    list-style: none;
+    height: 100%;
+    gap: 5rem;
+    font-family: Reg;
+ }
+ .nav ul li
+ {
+    font-size: 2rem;
+ }
+ .nav ul li a
+ {
+    color: black;
+    font-size: 2rem;
+    text-decoration: none;
+ }
+ .about-page {
+    width:100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 2rem;
+    background-color: #000000;
+    border-radius: 8px;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+ }
+ 
+ 
+ 
+ .info-table {
+    
+    width: 70%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    font-family: Reg;
+    font-size: 2rem;
+ }
+ 
+ .info-table td {
+    padding: 2rem;
+    border: 1px solid #000000;
+    text-align: center;
+ }
+ 
+ .info-table .label {
+    font-weight: bold;
+    background-color: #f9f9f9;
+ }
+ 
+ .info-table .value {
+    background-color: #ffffff;
+ }
+ 
+ .info-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+ }
